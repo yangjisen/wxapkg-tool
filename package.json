@@ -1,0 +1,33 @@
+{
+  "name": "wxapkg-tool",
+  "version": "1.0.0",
+  "description": "小程序反编译脚本",
+  "main": "wuWxapkg.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangjisen/wxapkg-tool.git"
+  },
+  "author": "yangjisen",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/yangjisen/wxapkg-tool/issues"
+  },
+  "scripts": {
+    "pkg": "node wuWxapkg.js",
+    "css": "node wuWxss.js",
+    "xml": "node wuWxml.js",
+    "js": "node wuJs.js",
+    "cfg": "node wuConfig.js"
+  },
+  "homepage": "https://github.com/yangjisen/wxapkg-tool#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "css-tree": "^1.0.0-alpha.39",
+    "cssbeautify": "^0.3.1",
+    "escodegen": "^1.14.3",
+    "esprima": "^4.0.1",
+    "js-beautify": "^1.11.0",
+    "uglify-es": "^3.3.9",
+    "vm2": "^3.9.2"
+  }
+}
