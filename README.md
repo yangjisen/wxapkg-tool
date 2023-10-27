@@ -95,3 +95,10 @@ function _typeof(o) {
 }
 module.exports = _typeof;
 ```
+
+# 手工解包
+`mp-unpack\resources\tool`下:
+1. 解包主包
+    - windows系统使用: `node wuWxapkg.js master.wxapkg`
+2. 解包子包
+    - windows系统使用: `node wuWxapkg.js -s=master.dir sub.wxapkg`
